@@ -1,0 +1,52 @@
+body {
+    background-color: #f4f7f6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sidebar {
+    background: #ffffff;
+    border-left: 2px solid #ececec;
+    height: 100vh;
+    box-shadow: -5px 0 15px rgba(0,0,0,0.02);
+}
+
+.menu-card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+}
+
+.menu-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+.item-img {
+    height: 140px;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.order-item {
+    background: #f8f9fa;
+    padding: 12px 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border-left: 4px solid #0d6efd;
+}
+
+.total-section {
+    border-top: 2px dashed #dee2e6;
+    padding-top: 20px;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateX(10px); }
+    to { opacity: 1; transform: translateX(0); }
+}
+
+.animate-fade-in {
+    animation: fadeIn 0.3s ease-out;
+}
